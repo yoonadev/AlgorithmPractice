@@ -20,5 +20,6 @@ public class Take2andAdd {
         Arrays.sort(answer);
         return answer;
 //        return set.stream().sorted().mapToInt(Integer::intValue).toArray();
+//        HashSet 대신 TreeSet 이용시 add와 동시에 정렬
     }
 }
